@@ -1,0 +1,60 @@
+/* public/home.css */
+
+/* Basic styling for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  /* Heading styling */
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Styling for the list of notes */
+  #notes-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #notes-list li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Styling for forms */
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"], textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background: #4285f4;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #357ae8;
+  }
+  
+  /* Style the delete form to display inline */
+  .delete-form {
+    display: inline;
+  }
+  

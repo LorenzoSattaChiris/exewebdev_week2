@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Note</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Edit Note</h1>
+        <!-- Form to update the note. Note that the action posts to /notes/:id/edit -->
+        <form action="/notes/<%= note.id %>/edit" method="POST">
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title" value="<%= note.title %>" required>
+            <br>
+            <label for="content">Content:</label>
+            <textarea name="content" id="content" rows="4" required><%= note.content %></textarea>
+            <br>
+            <button type="submit">Update Note</button>
+        </form>
+        <br>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+
+</html>
