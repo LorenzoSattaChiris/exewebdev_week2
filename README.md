@@ -1,4 +1,3 @@
-```markdown
 # ExeWebDev Week 2 - University of Exeter
 
 This repository contains the code and resources for Week 2 of the ExeWebDev course at the University of Exeter. 
@@ -57,4 +56,3 @@ node index.js
 
 This will start the development server, and you can access the application in your web browser, usually at `http://localhost:3000`.
 
-```
